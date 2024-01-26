@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  app1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-26T09:36:49.126120925Z"
+    description: A Helm chart for Kubernetes
+    digest: e16add18d361e6fc1e9dd9a26aba58d391045f72f47223d9a41459db041597af
+    name: app1
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/app1-0.1.1/app1-0.1.1.tgz
+    version: 0.1.1
+  app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-26T09:36:49.202320955Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.1
+    description: A Helm chart for Kubernetes
+    digest: 245bbad02543fd071d2ec325d8473a53959879367ee05bcd3f82962a6e6c347f
+    name: app2
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/app2-0.1.1/app2-0.1.1.tgz
+    version: 0.1.1
+  common:
+  - apiVersion: v2
+    created: "2024-01-26T09:36:49.302788769Z"
+    description: A Helm chart for Kubernetes
+    digest: b4a483b77e286b3ec3d3b6b93315f39d3ddca6a8e3ce51ecc8b6cba8906edfcd
+    name: common
+    type: library
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/common-0.1.1/common-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-01-26T09:36:49.302793848Z"

@@ -105,6 +105,16 @@ entries:
   ext-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-26T13:45:15.903758433Z"
+    description: A Helm chart for Kubernetes
+    digest: ad2850cb5c4d31b201ffcc728b95c243572d368edd955d75c69db0176df0f36e
+    name: ext-app
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/ext-app-0.1.8/ext-app-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-26T13:40:58.833384858Z"
     description: A Helm chart for Kubernetes
     digest: 9cc36905019592b98fb3b294e3db342dbdd93d297337dd1549a1db9c20dbde1d
@@ -123,4 +133,4 @@ entries:
     urls:
     - ext-app-0.1.5.tgz
     version: 0.1.5
-generated: "2024-01-26T13:43:59.151793612Z"
+generated: "2024-01-26T13:45:15.903832433Z"

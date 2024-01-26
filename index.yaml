@@ -3,6 +3,16 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-26T09:51:50.855370095Z"
+    description: A Helm chart for Kubernetes
+    digest: bb278069a64508e1ede3ff66535db7cd0dc082b4c6b53f521be1bb2ceb28cb80
+    name: app1
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/app1-0.1.2/app1-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-26T09:36:49.126120925Z"
     description: A Helm chart for Kubernetes
     digest: e16add18d361e6fc1e9dd9a26aba58d391045f72f47223d9a41459db041597af
@@ -12,6 +22,20 @@ entries:
     - https://github.com/stretchy/cha-main/releases/download/app1-0.1.1/app1-0.1.1.tgz
     version: 0.1.1
   app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-26T09:51:50.942518024Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.2
+    description: A Helm chart for Kubernetes
+    digest: 2ebbad9495b1358e7426f89d3c277c85976eaef495601d49cc56430547113ec6
+    name: app2
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/app2-0.1.2/app2-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-01-26T09:36:49.202320955Z"
@@ -28,6 +52,15 @@ entries:
     version: 0.1.1
   common:
   - apiVersion: v2
+    created: "2024-01-26T09:51:51.024096145Z"
+    description: A Helm chart for Kubernetes
+    digest: 450a96f8f2fa3d05612aa3fce5064ada67c8a2249fd7210812aac24a882df806
+    name: common
+    type: library
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/common-0.1.2/common-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     created: "2024-01-26T09:36:49.302788769Z"
     description: A Helm chart for Kubernetes
     digest: b4a483b77e286b3ec3d3b6b93315f39d3ddca6a8e3ce51ecc8b6cba8906edfcd
@@ -36,4 +69,4 @@ entries:
     urls:
     - https://github.com/stretchy/cha-main/releases/download/common-0.1.1/common-0.1.1.tgz
     version: 0.1.1
-generated: "2024-01-26T09:36:49.302793848Z"
+generated: "2024-01-26T09:51:51.024149054Z"

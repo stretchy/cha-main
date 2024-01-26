@@ -69,4 +69,15 @@ entries:
     urls:
     - https://github.com/stretchy/cha-main/releases/download/common-0.1.1/common-0.1.1.tgz
     version: 0.1.1
-generated: "2024-01-26T09:51:51.024149054Z"
+  ext-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-26T11:46:37.552227374Z"
+    description: A Helm chart for Kubernetes
+    digest: 600aa6f89769d619ab10ca92b3e49a0be71abb3a653c9d399633be2fe5748a23
+    name: ext-app
+    type: application
+    urls:
+    - ext-app-0.1.5.tgz
+    version: 0.1.5
+generated: "2024-01-26T11:46:37.552246574Z"

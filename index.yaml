@@ -3,6 +3,16 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-26T13:43:58.991102973Z"
+    description: A Helm chart for Kubernetes
+    digest: 9b4e101a06ee368de08203f136a73d4b24aed89fac948acce3030b2828c4184f
+    name: app1
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/app1-0.1.3/app1-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-26T09:51:50.855370095Z"
     description: A Helm chart for Kubernetes
     digest: bb278069a64508e1ede3ff66535db7cd0dc082b4c6b53f521be1bb2ceb28cb80
@@ -22,6 +32,20 @@ entries:
     - https://github.com/stretchy/cha-main/releases/download/app1-0.1.1/app1-0.1.1.tgz
     version: 0.1.1
   app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-26T13:43:59.071844813Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.3
+    description: A Helm chart for Kubernetes
+    digest: ee21e401e3cbc9a0e32868bf1958061b8fbb3ffa7cddf02cb6b0512e499bb06a
+    name: app2
+    type: application
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/app2-0.1.3/app2-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-01-26T09:51:50.942518024Z"
@@ -51,6 +75,15 @@ entries:
     - https://github.com/stretchy/cha-main/releases/download/app2-0.1.1/app2-0.1.1.tgz
     version: 0.1.1
   common:
+  - apiVersion: v2
+    created: "2024-01-26T13:43:59.151762714Z"
+    description: A Helm chart for Kubernetes
+    digest: 08b0bd52aa29036b83bf29c3dc289f6e7581fcdcbcd5803bb5daaf4cd375ae94
+    name: common
+    type: library
+    urls:
+    - https://github.com/stretchy/cha-main/releases/download/common-0.1.3/common-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     created: "2024-01-26T09:51:51.024096145Z"
     description: A Helm chart for Kubernetes
@@ -90,4 +123,4 @@ entries:
     urls:
     - ext-app-0.1.5.tgz
     version: 0.1.5
-generated: "2024-01-26T13:40:58.833398759Z"
+generated: "2024-01-26T13:43:59.151793612Z"
